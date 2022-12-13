@@ -10,9 +10,8 @@ print("="*30)
 print("Assesi Ponto".center(30))
 print("="*30)
 print("")
-
+nome_arquivo = "info.txt"
 try:
-    nome_arquivo = "ip.txt"
     arquivo = open(nome_arquivo, 'r+')
     for l in arquivo:
         if l == pclog:
